@@ -1,0 +1,24 @@
+#icon{
+    width:15rem;
+    height: 15rem;
+    background-color: #14BDEE;
+    border-radius: 50%;
+    border: 15px solid azure;
+    /* margin: 0 auto; */
+    margin: auto!important;
+}
+
+.icon{
+    /* justify-content: space-around;
+    /* align-content: center; */
+     text-align: center; 
+    /* vertical-align: middle; */
+    /* position: relative;
+    top: 30%; */
+    margin-left: 0;
+}
+
+.icon img{
+    height: 4rem;
+    width: 4rem;
+}
