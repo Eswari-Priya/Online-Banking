@@ -1,0 +1,37 @@
+
+#footer{
+    background-image: url("https://wallpaperaccess.com/full/173854.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 3%;
+    
+}
+a{
+    text-decoration: none!important;
+    color: #14BDEE!important;
+}
+
+li{
+    list-style: none;
+    color: #14BDEE!important;
+}
+
+img{
+    height:2rem;
+    width:2rem;
+}
+h4{
+    color: azure;
+}
+
+
+#copyright{
+    background-color: #606060;
+    color: azure;
+    text-align: center;
+    margin-top: 0.05rem;
+}
+
+#footer{
+    text-align: center !important;
+}
