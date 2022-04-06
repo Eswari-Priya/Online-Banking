@@ -1,0 +1,28 @@
+@media all and (min-width: 1020px){
+.head{
+    height:65vh !important;
+}
+.item{
+    height:65vh !important;
+}
+}
+.head{
+    height:50vh;
+}
+.image{
+    height:100% !important;
+}
+.item{
+    height:50vh;
+    border:2px solid white;
+    border-radius: 30px;
+    margin:10px;
+}
+
+h1{
+    font-size: 80px;
+    margin: 80px;
+}
+.pull{
+    object-fit:contain;
+}
