@@ -8,8 +8,9 @@ import reportWebVitals from './reportWebVitals';
 import Footer from './footer.js';
 import Transactions from './Transactions';
 import Car1 from './carousel1'; 
+import Stat from './stat';
 ReactDOM.render(
-  <div><Car1/><Blog/><Footer /></div>,
+  <div><Car1/><Stat/><Blog/><Footer /></div>,
   document.getElementById('root')
 );
 
