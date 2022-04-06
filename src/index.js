@@ -6,7 +6,7 @@ import Blog from './HomePage/Blogs/blogs'
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Footer from './HomePage/Footer/footer.js';
-import Transactions from './Transactions';
+import Transactions from './UserPage/TransactionHistory/Transactions';
 import Car1 from './carousel1'; 
 import Stat from './stat';
 ReactDOM.render(
