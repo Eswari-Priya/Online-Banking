@@ -9,8 +9,9 @@ import Footer from './footer.js';
 import Transactions from './Transactions';
 import Car1 from './carousel1'; 
 import Stat from './stat';
+import Navbar from './navbar';
 ReactDOM.render(
-  <div><Car1/><Stat/><Blog/><Footer /></div>,
+  <div><Navbar/><Car1/><Stat/><Blog/><Footer /></div>,
   document.getElementById('root')
 );
 
