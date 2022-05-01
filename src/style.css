@@ -26,3 +26,99 @@ h1{
 .pull{
     object-fit:contain;
 }
+.body {
+    min-height: 100vh;
+    color: white;
+    /* background-image: url('https://ak.picdn.net/shutterstock/videos/1037027657/thumb/1.jpg');
+    background-size: cover; */
+  }
+  
+  
+  .welcome-head
+  {
+    color:#086b8a;
+  }
+  
+  .card-bg {
+    background-color: #086b8a !important;
+    height: 25vh;
+    padding: 15px;
+  }
+  
+  secion{
+    min-height:50vh;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  
+  .slider-box
+  {
+    border:2px solid #086b8a;
+    border-radius: 25px;
+    /* background-color: #85bbcc; */
+  }
+  
+  .icon-size
+  {
+    font-size:50px;
+    color:#086b8a;
+  }
+  
+  .icon-border
+  {
+    border:2px solid #77c2da;
+    height:100px;
+    width:100px;
+    text-align: center;
+    display: inline-block;
+    position:relative;
+    border-radius: 50%;
+  }
+  
+  .swipe-head
+  {
+    font-size:15px;
+    color: #086b8a;
+  }
+  
+  p{
+    font-size:13px;
+    margin:5px;
+    color:#77c2da;
+  }
+  
+  .chart
+  {
+    width:260px;
+  }
