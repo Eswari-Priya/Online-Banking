@@ -1,32 +1,21 @@
-nav{
-    background-color:black;
-    padding-left: 20px;
-    margin-bottom: 30px;
-    height:80px;
+.nav-link{
+   margin-right:20px;
+   color: white !important;
 }
 .navbar-nav{
-    margin-left: auto;
-    margin-right: 40px;
-}
-.nav-link{
-    color: white !important;
-    margin: 10px;
+    margin-left:auto;
+    margin-right: 20px;
+    text-align: center;
 }
 .nav-link:hover{
     background-color: #14bdee;
-    border-radius: 10px;   
-    /* color: black !important; */
+    font-weight: bolder;
+    border-radius: 10px;
 }
-.brand{
-    color:#14bdee !important;
-    text-align: center;
+.navbar{
+    margin-bottom: 20px;
 }
 .navbar-brand{
-    color: white !important;
-    font-size: 30px;
-}
-.navbar-toggler{
-    color: white;
-    background-color: white;
-    margin-right: 20px;
+    font-size: 30px !important;
+    margin-left: 20px;
 }

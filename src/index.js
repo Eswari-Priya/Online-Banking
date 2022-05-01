@@ -6,12 +6,12 @@ import Blog from './blogs'
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Footer from './footer.js';
-import Transactions from './Transactions';
+import Transsactions from './Transactions';
 import Car1 from './carousel1'; 
 import Stat from './stat';
-import Navbar from './navbar';
+import Header from './navbar';
 ReactDOM.render(
-  <div><Navbar/><Car1/><Stat/><Blog/><Footer /></div>,
+  <div><Header/><Car1/><Stat/><Blog/><Footer /></div>,
   document.getElementById('root')
 );
 
