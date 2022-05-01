@@ -8,12 +8,20 @@ import reportWebVitals from './reportWebVitals';
 
 import Footer from './HomePage/Footer/footer.js';
 import Transactions from './UserPage/TransactionHistory/Transactions';
-
+import Slider from './slider';
+import Offer from './offer';
 import Car1 from './carousel1'; 
 import Stat from './stat';
 import Header from './navbar';
 ReactDOM.render(
-  <div><Header/><Car1/><Stat/><Blog/><Footer /></div>,
+  <div><Header/><Car1/><div className="body mt-5">
+  <h1 className="welcome-head text-center">Welcome to our bank</h1>
+  <div>
+    <Slider />
+  </div>
+  <div>
+    <Offer />
+  </div></div><Stat/><Blog/><Footer /></div>,
   document.getElementById('root')
 );
 
