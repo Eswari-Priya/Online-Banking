@@ -5,12 +5,15 @@ import './index.css';
 import Blog from './HomePage/Blogs/blogs'
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 import Footer from './HomePage/Footer/footer.js';
 import Transactions from './UserPage/TransactionHistory/Transactions';
+
 import Car1 from './carousel1'; 
 import Stat from './stat';
+import Header from './navbar';
 ReactDOM.render(
-  <div><Car1/><Stat/><Blog/><Footer /></div>,
+  <div><Header/><Car1/><Stat/><Blog/><Footer /></div>,
   document.getElementById('root')
 );
 

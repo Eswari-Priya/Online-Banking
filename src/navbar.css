@@ -1,0 +1,24 @@
+.nav-link{
+   margin-right:20px;
+   color: white !important;
+}
+.navbar-nav{
+    margin-left:auto;
+    margin-right: 20px;
+    text-align: center;
+}
+.nav-link:hover{
+    background-color: #14bdee;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.navbar{
+    margin-bottom: 20px;
+}
+.navbar-brand{
+    font-size: 30px !important;
+    margin-left: 20px;
+}
+.navbar-toggler{
+    margin-right: 20px;
+}

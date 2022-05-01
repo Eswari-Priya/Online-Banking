@@ -6,8 +6,12 @@
   .icon {
     text-align: center;
     color: #14bdee;
-    font-size: 80px;
+    font-size: 100px;
   }
+  /* .image{
+    width:500px;
+    height: 400px;
+  } */
   .column{
     text-align: center;
     margin-bottom:50px;
