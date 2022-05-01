@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import Transactions from './Transactions';
-import Blog from './blogs'
+import Blog from './HomePage/Blogs/blogs'
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Footer from './footer.js';
-import Transsactions from './Transactions';
+
+import Footer from './HomePage/Footer/footer.js';
+import Transactions from './UserPage/TransactionHistory/Transactions';
+
 import Car1 from './carousel1'; 
 import Stat from './stat';
 import Header from './navbar';
