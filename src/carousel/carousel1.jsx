@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import './style.css'
+import '../style.css'
 import pic from './credit.jpg';
 import pic3 from './online.jpg';
 import pic1 from './banking.jpg';

@@ -6,7 +6,7 @@ export class FollowList extends Component {
     state = {  } 
     renderlist = (li) =>{
         return(
-            <div className='p-2'><a href={li.href}><span><img src={li.icon}></img>{li.title}</span></a></div>
+            <div className='p-2'><a href={li.href}><span><img className="social" src={li.icon}></img>{li.title}</span></a></div>
         )
     }
     renderfollow = (ob) =>{

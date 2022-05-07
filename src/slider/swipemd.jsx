@@ -8,21 +8,21 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper';
-import './style.css';
+import '../style.css';
 
-class Swipesm extends Component {
+class Swipemd extends Component {
     render() {
       return (
         <div>
             <Swiper
-            slidesPerView={2}
+            slidesPerView={3}
             spaceBetween={30}
             slidesPerGroup={1}
             loop={true}
             loopFillGroupWithBlank={false}
             navigation={true}
             modules={[Navigation]}
-            className="mySwiper text-dark"
+            className="mySwiper"
           >
             <SwiperSlide className='slider-box'> 
             <div>
@@ -154,4 +154,4 @@ class Swipesm extends Component {
       };
     }
 
-  export default Swipesm;
+  export default Swipemd;

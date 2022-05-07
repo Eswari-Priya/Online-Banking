@@ -122,3 +122,57 @@ h1{
   {
     width:260px;
   }
+
+
+  .contactUsBg
+  {
+    background-image: url('./contact_us/contactus_bg.png');
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 20px;
+  }
+  
+  label{
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    /* text-decoration: underline; */
+  }
+  
+  .label
+  {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    color:#fff !important;
+    /* text-decoration: underline; */
+  }
+  
+  .login_bg
+  {
+    background-image: url('./login/login-page-bg.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 20px;
+  }
+  
+  .newreg_bg
+  {
+    background-image: url('./login/login-page-bg.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    color:white;
+  }
+  
+  /* .userIcon
+  {
+    margin-bottom: -140px;
+    width:300px;
+    height:300px;
+    border-radius: 150px;
+  } */
+  .userIcon{
+    position: relative;
+    left: 0%;
+    top: 100%;
+    z-index: 1;
+  }

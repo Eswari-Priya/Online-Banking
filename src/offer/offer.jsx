@@ -1,5 +1,5 @@
 import React,{ Component } from 'react';
-import './style.css';
+import '../style.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -7,7 +7,7 @@ class Offer extends Component {
     render()
     {
         return (
-            <div className="card m-4 p-4 bg-transparent">
+            <div className=" m-4 p-4 bg-transparent">
                 <h2 className="welcome-head text-center">
           Enjoy the best benefits with NESLA savings bank account
         </h2>

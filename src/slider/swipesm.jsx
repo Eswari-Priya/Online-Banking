@@ -8,14 +8,14 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper';
-import './style.css';
+import '../style.css';
 
-class Swipevs extends Component {
+class Swipesm extends Component {
     render() {
       return (
         <div>
             <Swiper
-            slidesPerView={1}
+            slidesPerView={2}
             spaceBetween={30}
             slidesPerGroup={1}
             loop={true}
@@ -25,7 +25,7 @@ class Swipevs extends Component {
             className="mySwiper text-dark"
           >
             <SwiperSlide className='slider-box'> 
-            <div > 
+            <div>
               <div className='mb-4 p-4 icon-border'>
               <FontAwesomeIcon className='icon-size' icon={faKey} />
               </div>
@@ -154,4 +154,4 @@ class Swipevs extends Component {
       };
     }
 
-  export default Swipevs;
+  export default Swipesm;

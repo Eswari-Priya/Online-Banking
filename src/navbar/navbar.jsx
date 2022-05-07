@@ -14,11 +14,12 @@ class Header extends Component{
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav>
-                        <Nav.Link href="#features">Home</Nav.Link>
-                        <Nav.Link href="#pricing">New User/Registration</Nav.Link>
-                        <Nav.Link href="#deets">Account Creation</Nav.Link>
-                        <Nav.Link href="#deets">Complaints/requests</Nav.Link>
-                        <Nav.Link href="#deets">Contact Us</Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/new_registration">New User/Registration</Nav.Link>
+                        <Nav.Link href="/account_creation">Account Creation</Nav.Link>
+                        <Nav.Link href="/complaints">Complaints/requests</Nav.Link>
+                        <Nav.Link href="/contactus">Contact Us</Nav.Link>
+                        <Nav.Link href="/login">Login</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
