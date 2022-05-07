@@ -16,9 +16,9 @@ li{
     color: #14BDEE!important;
 }
 
-img{
-    height:2rem;
-    width:2rem;
+.social{
+    height:2rem !important;
+    width:2rem !important;
 }
 h4{
     color: azure;

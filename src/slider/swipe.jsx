@@ -8,25 +8,25 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper';
-import './style.css';
+import '../style.css';
 
-class Swipemd extends Component {
+class Swipe extends Component {
     render() {
       return (
         <div>
             <Swiper
-            slidesPerView={3}
-            spaceBetween={30}
+            slidesPerView={5}
+            spaceBetween={20}
             slidesPerGroup={1}
             loop={true}
             loopFillGroupWithBlank={false}
             navigation={true}
             modules={[Navigation]}
-            className="mySwiper"
+            className="mySwiper pt-0"
           >
             <SwiperSlide className='slider-box'> 
             <div>
-              <div className='mb-4 p-4 icon-border'>
+              <div className='m-3 p-4 icon-border'>
               <FontAwesomeIcon className='icon-size' icon={faKey} />
               </div>
                <div>
@@ -37,7 +37,7 @@ class Swipemd extends Component {
             </SwiperSlide>
             <SwiperSlide className='slider-box'>
             <div>
-              <div className='mb-4 p-4 icon-border'>
+              <div className='m-3 p-4 icon-border'>
               <FontAwesomeIcon className='icon-size' icon={faPager} />
               </div>
                <div>
@@ -48,7 +48,7 @@ class Swipemd extends Component {
             </SwiperSlide>
             <SwiperSlide className='slider-box'>
               <div>
-              <div className='mb-4 p-4 icon-border'>
+              <div className='m-3 p-4 icon-border'>
               <FontAwesomeIcon className='icon-size' icon={faGear} />
               </div>
                <div>
@@ -59,7 +59,7 @@ class Swipemd extends Component {
             </SwiperSlide>
             <SwiperSlide className='slider-box'>
             <div>
-              <div className='mb-4 p-4 icon-border'>
+              <div className='m-3 p-4 icon-border'>
               <FontAwesomeIcon className='icon-size' icon={faMessage} />
               </div>
                <div>
@@ -69,7 +69,7 @@ class Swipemd extends Component {
             </div>
             </SwiperSlide>
             <SwiperSlide className='slider-box'> <div>
-              <div className='mb-4 p-4 icon-border'>
+              <div className='m-3 p-4 icon-border'>
               <FontAwesomeIcon className='icon-size' icon={faBell} />
               </div>
                <div>
@@ -78,7 +78,7 @@ class Swipemd extends Component {
             </div>
             </div></SwiperSlide>
             <SwiperSlide className='slider-box'> <div>
-              <div className='mb-4 p-4 icon-border'>
+              <div className='m-3 p-4 icon-border'>
               <FontAwesomeIcon className='icon-size' icon={faBars} />
               </div>
                <div>
@@ -87,7 +87,7 @@ class Swipemd extends Component {
             </div>
             </div></SwiperSlide>
             <SwiperSlide className='slider-box'><div>
-              <div className='mb-4 p-4 icon-border'>
+              <div className='m-3 p-4 icon-border'>
               <FontAwesomeIcon className='icon-size' icon={faPlus} />
               </div>
                <div>
@@ -96,7 +96,7 @@ class Swipemd extends Component {
             </div>
             </div></SwiperSlide>
             <SwiperSlide className='slider-box'> <div>
-              <div className='mb-4 p-4 icon-border'>
+              <div className='m-3 p-4 icon-border'>
               <FontAwesomeIcon className='icon-size' icon={faExclamationTriangle} />
               </div>
                <div>
@@ -105,7 +105,7 @@ class Swipemd extends Component {
             </div>
             </div></SwiperSlide>
             <SwiperSlide className='slider-box'> <div>
-              <div className='mb-4 p-4 icon-border'>
+              <div className='m-3 p-4 icon-border'>
               <FontAwesomeIcon className='icon-size' icon={faUserCircle} />
               </div>
                <div>
@@ -154,4 +154,4 @@ class Swipemd extends Component {
       };
     }
 
-  export default Swipemd;
+  export default Swipe;
