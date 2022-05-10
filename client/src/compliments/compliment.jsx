@@ -5,6 +5,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './compliment.css'
 import pic from './home-bg.png'
 export default class  Compliment extends Component { 
+    onsubmit=(e)=>{
+        e.preventDefault();
+        console.log("hello");
+        var firstName = document.getElementById("FirstName").value
+        var lastName = document.getElementById("LastName").value
+        var mobileNumber = document.getElementById("Mobile").value
+        var emailid = document.getElementById("EmailId").value
+        var msg = document.getElementById("Message").value
+        console.log(firstName,lastName, "raising request")
+        
+        // Axios.post("http://localhost:3001/contactUs",{FirstName:firstName, LastName:lastName, MobileNumber: mobileNumber, Emailid:emailid, message:msg})
+        // .then(data=>{window.alert("Successfully took your input. You will hear back from one of our company executive soon! Thank you for your response");window.location.reload(false)})
+        // .catch(err=>{window.alert("Make sure you didn't leave email field empty or hadn't filed any previous requests and try again!")})
+    }
     render() { 
         return (
             <div class="container-fluid compliment">
@@ -33,7 +47,7 @@ export default class  Compliment extends Component {
                     <p>Your Message</p><textarea placeholder='Write your message here'></textarea>
                 </form>
                 <div class="submit">
-                <button class='btn btn-secondary'>Submit</button>
+                <button class='btn btn-secondary' onClick={this.onsubmit}>Submit</button>
                 </div>
                 </div>
             </div>

@@ -1,11 +1,23 @@
 import React, { Component } from 'react';
 import '../style.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import complaints from './complaints.png'
+import complaints from './complaints.png';
+import Axios from 'axios';
 
 
 class Complaints extends Component
 {
+    onsubmit=(e)=>{
+        e.preventDefault();
+        var firstName = document.getElementById("FirstName").value
+        var lastName = document.getElementById("LastName").value
+        var mobileNumber = document.getElementById("Mobile").value
+        var emailid = document.getElementById("EmailId").value
+        var msg = document.getElementById("Complaint").value
+        Axios.post("http://localhost:3001/complaints",{FirstName:firstName, LastName:lastName, MobileNumber: mobileNumber, Emailid:emailid, message:msg})
+        .then(data=>{window.alert("We are extremely sorry for the inconvenience. We raised a ticket with the number "+data.data[0].lastind+". Our team is working on resolving your issue. Thank you for your patience!");window.location.reload(false)})
+        .catch(err=>{console.log(err);window.alert("Make sure you didn't leave the Emailid field empty and retry!")})
+    }
     render()
     {
         return (
@@ -37,7 +49,7 @@ class Complaints extends Component
                                     <textarea className='form-control' id='Complaint' type="text" placeholder='Type here'></textarea>
                                 </div>
                                 <div className='text-center mb-2 mt-3'>
-                                <button className='btn btn-info' type='submit'>Submit</button>
+                                <button className='btn btn-info' type='submit' onClick={this.onsubmit}>Submit</button>
                                 </div>
                             </form>
                         </div>

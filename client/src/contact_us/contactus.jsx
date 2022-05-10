@@ -2,10 +2,23 @@ import React, { Component } from 'react';
 import '../style.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import contactUs from './contactus.png'
-
+import Axios from 'axios';
 
 class Contactus extends Component
 {
+    onsubmit=(e)=>{
+        e.preventDefault();
+       
+        var firstName = document.getElementById("FirstName").value
+        var lastName = document.getElementById("LastName").value
+        var mobileNumber = document.getElementById("Mobile").value
+        var emailid = document.getElementById("EmailId").value
+        var msg = document.getElementById("Message").value
+        
+        Axios.post("http://localhost:3001/contactUs",{FirstName:firstName, LastName:lastName, MobileNumber: mobileNumber, Emailid:emailid, message:msg})
+        .then(data=>{window.alert("Successfully took your input. You will hear back from one of our company executive soon! Thank you for your response");window.location.reload(false)})
+        .catch(err=>{window.alert("Make sure you didn't leave email field empty or hadn't filed any previous requests and try again!")})
+    }
     render()
     {
         return (
@@ -37,7 +50,7 @@ class Contactus extends Component
                                     <textarea className='form-control' id='Message' placeholder='Type here' type="text"></textarea>
                                 </div>
                                 <div className='text-center mb-2 mt-3'>
-                                <button className='btn btn-info' type='submit'>Submit</button>
+                                <button className='btn btn-info' onClick={this.onsubmit}>Submit</button>
                                 </div>
                             </form>
                         </div>
